@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "When your uni neighbour turns out to be a prince",
+    "description": "A former student remembers what it was like living next door to the future Emperor of Japan.",
+    "url": "https://www.bbc.co.uk/news/articles/cxwwzw08zxxo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/57aa/live/5b25e4f0-2fde-11ef-8e15-41b05d9d84b4.jpg",
+    "publishedAt": "2024-06-26T03:52:14.2264949Z",
+    "content": "More than 40 years later, Emperor Naruhito is going back to his old student haunts while on a state visit to the UK.\r\nKeith, from the Appalachian mountains and who liked to play bluegrass music, gave… [+722 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Julian Assange heads to freedom. This is how the deal was done",
+    "description": "Australian pressure, British legal process and a US realisation it needed a deal led to Wikileaks founder's release.",
+    "url": "https://www.bbc.co.uk/news/articles/c511y42z1p7o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/a2ab/live/bfa943d0-3331-11ef-b6f2-b9570029d6ac.jpg",
+    "publishedAt": "2024-06-26T03:37:17.4456132Z",
+    "content": "Then came the law. On May 20, the High Court in the UK gave Julian Assange a legal lifeline. \r\nIt ruled that he could bring a new appeal against attempts to have him extradited to stand trial in the … [+1716 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Jamaal Bowman loses New York primary to pro-Israel George Latimer",
+    "description": "The war in Gaza loomed large over the hotly anticipated election in New York's 16th district.",
+    "url": "https://www.bbc.co.uk/news/articles/cz99x0w65dyo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2cd2/live/aa76c620-3347-11ef-a8d0-0397e0dc51ba.jpg",
+    "publishedAt": "2024-06-26T03:37:14.9774788Z",
+    "content": "New York congressman Jamaal Bowman has lost a primary challenge, according to projections, in a closely watched race that exposed a bitter rift within the Democratic party over the Israel-Gaza war. \r… [+2702 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Boeing Starliner: Why are the astronauts still in space?",
+    "description": "What has delayed their return and what does it mean for the mission?",
+    "url": "https://www.bbc.co.uk/news/articles/c6pp29gdwe6o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/325e/live/13ab7590-330d-11ef-bdc5-41d7421c2adf.jpg",
+    "publishedAt": "2024-06-26T01:07:21.8209044Z",
+    "content": "The sequence of events raises questions about whether the launch should have gone ahead in spite of the leak. \r\nDr Adam Baker, who is head of Rocket Engineering, a UK company specialising in rocket p… [+1311 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "German car maker VW to invest up to $5bn in Tesla rival Rivian",
+    "description": "Shares in the US-based electric truck and SUV maker jumped by around 50% after the announcement.",
+    "url": "https://www.bbc.co.uk/news/articles/c1ddmxmz1lpo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/489d/live/675eb070-334a-11ef-a338-cff579e52648.jpg",
+    "publishedAt": "2024-06-26T00:52:16.9762925Z",
+    "content": "Volkswagen (VW) says it will invest up to $5bn (£3.94bn) in US electric vehicle (EV) maker Rivian.\r\nThe deal creates a joint venture that will allow the German car making giant and the Tesla rival to… [+610 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Sir David Attenborough: New portrait by Jonathan Yeo unveiled",
+    "description": "The painting marks the veteran natural history broadcaster's 40 years of fellowship to the Royal Society.",
+    "url": "https://www.bbc.co.uk/news/articles/c6pp2774qq7o",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/a8c8/live/63c6f870-3302-11ef-90be-b75b34b0bbb2.jpg",
+    "publishedAt": "2024-06-26T00:52:15.6016342Z",
+    "content": "He added that his work has only been possible thanks to the natural history film makers and scientists who have shared their skills.\r\nYeo, who has also painted Sir Tony Blair and Malala Yousafzai, sa… [+1525 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Macron's election gamble puts French democracy on the table",
+    "description": "Some fear the snap elections could lead to violence on the streets, and endanger French democracy.",
+    "url": "https://www.bbc.co.uk/news/articles/cekk9n1je9yo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/563c/live/fb8aed90-32ff-11ef-a32d-c55e0faa7482.jpg",
+    "publishedAt": "2024-06-26T00:22:14.7883296Z",
+    "content": "When Macron called the election on the evening of the European elections, I called my children and said you do realise we are living a historic moment, says Juliette Vilgrain, a candidate for Horizon… [+1261 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Louisiana sued over Ten Commandments display in schools",
+    "description": "Group including rabbis and pastors argue Ten Commandments law is a violation of the US constitution.",
+    "url": "https://www.bbc.co.uk/news/articles/czqq61xd4dqo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/834c/live/02860990-3300-11ef-a044-9d4367d5b599.jpg",
+    "publishedAt": "2024-06-25T16:07:17.5338737Z",
+    "content": "Under the legislation, HB71, every classroom that receives state funding must by 2025 prominently display the biblical text in a \"large, easily readable font\" on a poster that is 11 inches by 14 inch… [+2174 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "DC heat melts head off wax replica of Abraham Lincoln",
+    "description": "The head from the statue is now under repair, leaving a wire sticking out of the 16th president's neck.",
+    "url": "https://www.bbc.co.uk/news/articles/c0xxjn07d6qo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/d018/live/71a58360-32fa-11ef-8c6c-299cff3cd7bb.jpg",
+    "publishedAt": "2024-06-25T15:22:21.0805834Z",
+    "content": "A wax statue of President Abraham Lincoln failed to keep its head as temperatures soared to triple-digits over the weekend in the nation's capital. \r\nThe legs followed soon, leaving the torso and tur… [+1045 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Conservatives put pressure on Trudeau with Toronto St-Paul's by-election win",
+    "description": "The Canadian PM's rivals have snatched a Toronto seat that had been Liberal-held for decades.",
+    "url": "https://www.bbc.co.uk/news/articles/c3gg0d122qvo",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f699/live/fcf0ab00-32f2-11ef-90be-b75b34b0bbb2.jpg",
+    "publishedAt": "2024-06-25T13:37:15.9553653Z",
+    "content": "The Conservatives have narrowly snatched the Toronto-St Paul's seat from the Liberals, in a huge political upset that is expected to intensify political pressure on Prime Minister Justin Trudeau.\r\nCa… [+1242 chars]"
+    }
+    ]
+    }
