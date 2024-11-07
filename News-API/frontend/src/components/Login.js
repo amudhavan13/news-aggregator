@@ -1,5 +1,4 @@
 // frontend/src/components/Login.js
-
 import React, { useState } from "react";
 import "./Login.css";
 import axios from "axios";
@@ -10,7 +9,7 @@ const Login = ({ onLogin }) => {
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const navigate = useNavigate(); // Initialize useNavigate for redirection
+  const navigate = useNavigate();
 
   const handleInputChange = (event) => {
     const { id, value } = event.target;
@@ -28,9 +27,8 @@ const Login = ({ onLogin }) => {
       });
 
       if (response.data.success) {
-        alert("Login successful");
-        onLogin(); // Update login state in App.js
-        navigate("/interests"); // Redirect to Interests page after successful login
+        onLogin(email); // Pass email to login state in App.js
+        navigate("/interests");
       } else {
         setErrorMessage(response.data.message);
       }

@@ -2,27 +2,30 @@
 
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar"; // Update to default export
-import News from "./components/News"; // Update to default export
+import { Routes, Route, Navigate } from "react-router-dom";
+import Navbar from "./components/Navbar"; // Assuming Navbar uses default export
+import News from "./components/News"; // Assuming News uses default export
 import NewsChecker from "./components/NewsChecker";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import Interests from "./components/Interests"; // Import Interests component
-import { Routes, Route, Navigate } from "react-router-dom";
+import Interests from "./components/Interests";
 
 export default class App extends Component {
   api_key = "585f3a3a24764a82a970c0f33e9b28ba"; // API key for news fetching
 
   state = {
     isLoggedIn: false, // Track login status
+    email: null,       // Track logged-in user email
   };
 
-  handleLogin = () => {
-    this.setState({ isLoggedIn: true });
+  handleLogin = (userEmail) => {
+    // Update login status and store the email
+    this.setState({ isLoggedIn: true, email: userEmail });
   };
 
   handleLogout = () => {
-    this.setState({ isLoggedIn: false });
+    // Clear login status and email on logout
+    this.setState({ isLoggedIn: false, email: null });
   };
 
   render() {
@@ -61,18 +64,20 @@ export default class App extends Component {
           />
           <Route path="/check-fake-news" element={<NewsChecker />} />
 
-          {/* Routes for Login and Signup */}
+          {/* Login and Signup routes */}
           <Route
             path="/login"
-            element={<Login onLogin={this.handleLogin} />} // Pass handleLogin function
+            element={<Login onLogin={this.handleLogin} />}
           />
           <Route path="/signup" element={<Signup />} />
 
-          {/* Route for Interests page, only accessible if logged in */}
+          {/* Interests page, accessible only if logged in */}
           <Route
             path="/interests"
             element={
-              this.state.isLoggedIn ? <Interests /> : <Navigate to="/login" />
+              this.state.isLoggedIn
+                ? <Interests email={this.state.email} /> // Pass email to Interests
+                : <Navigate to="/login" />
             }
           />
         </Routes>
