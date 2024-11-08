@@ -1,5 +1,3 @@
-// frontend/src/App.js
-
 import React, { Component } from "react";
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -31,9 +29,14 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        {/* Pass isLoggedIn state and handleLogout to Navbar */}
-        <Navbar isLoggedIn={this.state.isLoggedIn} onLogout={this.handleLogout} />
+        {/* Pass isLoggedIn state, email, and handleLogout to Navbar */}
+        <Navbar
+          isLoggedIn={this.state.isLoggedIn}
+          email={this.state.email}
+          onLogout={this.handleLogout}
+        />
         <Routes>
+          {/* Routes for different news categories */}
           <Route
             path="/"
             element={<News key="general" api_key={this.api_key} category="general" />}

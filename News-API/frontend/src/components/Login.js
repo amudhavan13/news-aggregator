@@ -1,4 +1,5 @@
 // frontend/src/components/Login.js
+
 import React, { useState } from "react";
 import "./Login.css";
 import axios from "axios";
@@ -27,7 +28,7 @@ const Login = ({ onLogin }) => {
       });
 
       if (response.data.success) {
-        onLogin(email); // Pass email to login state in App.js
+        onLogin(email); // Update App.js state with email
         navigate("/interests");
       } else {
         setErrorMessage(response.data.message);
