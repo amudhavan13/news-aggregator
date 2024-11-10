@@ -11,19 +11,27 @@ import Interests from "./components/Interests";
 export default class App extends Component {
   api_key = "585f3a3a24764a82a970c0f33e9b28ba"; // API key for news fetching
 
-  state = {
-    isLoggedIn: false, // Track login status
-    email: null,       // Track logged-in user email
-  };
+  constructor(props) {
+    super(props);
+    // Initialize the state based on localStorage values
+    this.state = {
+      isLoggedIn: localStorage.getItem("isLoggedIn") === "true" || false,
+      email: localStorage.getItem("email") || null,
+    };
+  }
 
   handleLogin = (userEmail) => {
-    // Update login status and store the email
+    // Update login status, store email in state and localStorage
     this.setState({ isLoggedIn: true, email: userEmail });
+    localStorage.setItem("isLoggedIn", "true");
+    localStorage.setItem("email", userEmail);
   };
 
   handleLogout = () => {
-    // Clear login status and email on logout
+    // Clear login status and email from state and localStorage on logout
     this.setState({ isLoggedIn: false, email: null });
+    localStorage.removeItem("isLoggedIn");
+    localStorage.removeItem("email");
   };
 
   render() {
